@@ -1,0 +1,3 @@
+[submodule "BRG4-IO/themes/risotto"]
+	path = BRG4-IO/themes/risotto
+	url = https://github.com/joeroe/risotto
