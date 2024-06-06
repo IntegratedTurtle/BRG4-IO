@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://integratedturtle.github.io/BRG4-IO/"
 languageCode = "de-de"
 title = "BG und BRG4-IOI"
 theme = "ink"

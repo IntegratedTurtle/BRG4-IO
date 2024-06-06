@@ -1,7 +1,7 @@
 +++
 title = 'Anmeldung'
 date = 2024-06-06T15:19:50+02:00
-draft = true
+draft = false
 +++
 
 # Was ist ein Club?
