@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "de-de"
-title = "BRG4-IOI"
+title = "BG und BRG4-IOI"
 theme = "ink"
 paginate = 5
 
@@ -10,17 +10,16 @@ pygmentsstyle = "vs"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-googleAnalytics = "UA-123-45"
-disqusShortname = "ink-demo"
+googleAnalytics = ""
+disqusShortname = ""
 
 [params]
-	subtitle = "Alle infos zum Informatik-Olympiade Club des BRG4"
+	subtitle = "Alle infos zum Informatik-Olympiade Club des BG und BRG4"
 
 	# Optional 64x64 avatar image.
 	avatar = ""
 
-	# Content types to disable Disqus on.
-	disableDisqusTypes = ["page"]
+	# Content types to disable Disqus on.  disableDisqusTypes = ["page"]
 	
 	featherIconsCDN = true
 
@@ -41,8 +40,8 @@ url = "/updates"
 weight = 2
 
 [[menu.main]]
-name = "Tutorials"
-url = "/tutorials"
+name = "Tutorial"
+url = "/tutorial"
 weight = 3
 
 [[menu.main]]
@@ -53,7 +52,7 @@ weight = 4
 [[params.social]]
 name = "Github"
 icon = "github"
-url = "https://github.com/knadh/hugo-ink"
+url = "https://github.com/IntegratedTurtle/BRG4-IO/"
 
 [[params.social]]
 name = "RSS"
