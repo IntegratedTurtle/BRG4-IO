@@ -1,10 +1,10 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "Ink"
+languageCode = "de-de"
+title = "BRG4-IOI"
 theme = "ink"
 paginate = 5
 
-copyright = "© Copyright notice"
+copyright = "Sir Karl Popper Schule"
 
 pygmentsstyle = "vs"
 pygmentscodefences = true
@@ -14,17 +14,17 @@ googleAnalytics = "UA-123-45"
 disqusShortname = "ink-demo"
 
 [params]
-	subtitle = "Crisp, minimal personal [blog theme for Hugo](https://github.com/knadh/hugo-ink)"
+	subtitle = "Alle infos zum Informatik-Olympiade Club des BRG4"
 
 	# Optional 64x64 avatar image.
-	avatar = "https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg"
+	avatar = ""
 
 	# Content types to disable Disqus on.
 	disableDisqusTypes = ["page"]
 	
 	featherIconsCDN = true
 
-	mode = "auto" # "dark" or "auto"
+	mode = "dark" # "dark" or "auto"
 	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
 	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
 	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
@@ -36,18 +36,18 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
-url = "/posts"
+name = "Updates"
+url = "/updates"
 weight = 2
 
 [[menu.main]]
-name = "About"
-url = "/about"
+name = "Tutorials"
+url = "/tutorials"
 weight = 3
 
 [[menu.main]]
-name = "Tags"
-url = "/tags"
+name = "Aufgaben"
+url = "/aufgaben"
 weight = 4
 
 [[params.social]]
