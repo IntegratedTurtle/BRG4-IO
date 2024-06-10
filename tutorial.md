@@ -22,7 +22,7 @@
 │       └── ink
 │           └── ...
 └── ...
-## Erlaerung
+## Erklaerung
 ### Content
 Im content folder ist alles drin was am Ende auf der Website stehen soll.
 #### _index.md
