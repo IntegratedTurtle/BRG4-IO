@@ -7,7 +7,12 @@
 │   │   ├── _index.md
 │   │   ├── tutorial
 │   │   │   ├── install
-│   │   │   └── learncpp
+│   │   │   ├── learncpp
+│   │   │   │   └── index.md
+│   │   │   └── Topics
+│   │   │       └── Segtrees
+│   │   │           └── Other_Ressources
+│   │   │               └── index.md
 │   │   └── updates
 │   │       ├── anmeldung
 │   │       └── start.md
