@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://integratedturtle.github.io/BRG4-IO/tutorial/topics/segtrees/other_ressources/</loc>
-    <lastmod>2024-06-10T11:30:50+02:00</lastmod>
+    <loc>https://integratedturtle.github.io/BRG4-IO/tutorial/topics/</loc>
+    <lastmod>2024-06-10T14:45:33+02:00</lastmod>
   </url><url>
     <loc>https://integratedturtle.github.io/BRG4-IO/tutorial/</loc>
+    <lastmod>2024-06-10T14:45:33+02:00</lastmod>
+  </url><url>
+    <loc>https://integratedturtle.github.io/BRG4-IO/tutorial/topics/segtrees/other_ressources/</loc>
     <lastmod>2024-06-10T11:30:50+02:00</lastmod>
   </url><url>
     <loc>https://integratedturtle.github.io/BRG4-IO/updates/anmeldung/</loc>
@@ -13,9 +16,6 @@
   </url><url>
     <loc>https://integratedturtle.github.io/BRG4-IO/updates/</loc>
     <lastmod>2024-06-06T15:19:50+02:00</lastmod>
-  </url><url>
-    <loc>https://integratedturtle.github.io/BRG4-IO/tutorial/install/</loc>
-    <lastmod>2024-06-06T14:54:41+02:00</lastmod>
   </url><url>
     <loc>https://integratedturtle.github.io/BRG4-IO/updates/start/</loc>
     <lastmod>2024-06-06T00:28:59+02:00</lastmod>
