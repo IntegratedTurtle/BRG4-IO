@@ -1,7 +1,7 @@
 +++
 title = 'Learn C++'
 date = 2024-05-29T13:25:57+02:00
-draft = true
+draft = false
 description = "Du kannst noch nicht Programmieren, oder warst schon bei der Informatikolympiade, wir haben hier Ressourcen fuer alle zusammengefasst"
 +++
 # Video

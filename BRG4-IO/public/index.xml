@@ -4,17 +4,45 @@
     <title>BG und BRG4-IOI</title>
     <link>https://integratedturtle.github.io/BRG4-IO/</link>
     <description>Recent content on BG und BRG4-IOI</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>de-de</language>
     <copyright>Sir Karl Popper Schule</copyright>
-    <lastBuildDate>Thu, 06 Jun 2024 00:08:32 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 10 Jun 2024 11:30:50 +0200</lastBuildDate>
     <atom:link href="https://integratedturtle.github.io/BRG4-IO/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Other_Ressources</title>
+      <link>https://integratedturtle.github.io/BRG4-IO/tutorial/topics/segtrees/other_ressources/</link>
+      <pubDate>Mon, 10 Jun 2024 11:30:50 +0200</pubDate>
+      <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/topics/segtrees/other_ressources/</guid>
+      <description>More advanced segtree subjects cp-algorithms for lazy, spare, preserving history, 2D segtrees&#xA;USACO on advanced segtree-topics</description>
+    </item>
     <item>
       <title>Anmeldung</title>
       <link>https://integratedturtle.github.io/BRG4-IO/updates/anmeldung/</link>
       <pubDate>Thu, 06 Jun 2024 15:19:50 +0200</pubDate>
       <guid>https://integratedturtle.github.io/BRG4-IO/updates/anmeldung/</guid>
       <description>Was ist ein Club? Ein Club ist eine Versammlung von SchülerInnen der Oberstufe, die sich regelmäßig treffen und dabei einem gemeinsamen Hobby oder einem Interesse nachgehen. (z.B. Schach-, Debattier-Club, Musik-Trio, …)&#xA;Wie Meldet man sich an Das unten Angeheftete pdf ausfüllen und einem von uns beim nächsten Treffen in die Hand drücken&#xA;Wer ist Clubleiter Ben Kinigadner&#xA;Anmeldungs pdf</description>
+    </item>
+    <item>
+      <title>Installation</title>
+      <link>https://integratedturtle.github.io/BRG4-IO/tutorial/install/</link>
+      <pubDate>Thu, 06 Jun 2024 14:54:41 +0200</pubDate>
+      <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/install/</guid>
+      <description>Windows MacOS Linux </description>
+    </item>
+    <item>
+      <title>Warum machen wir das</title>
+      <link>https://integratedturtle.github.io/BRG4-IO/updates/start/</link>
+      <pubDate>Thu, 06 Jun 2024 00:28:59 +0200</pubDate>
+      <guid>https://integratedturtle.github.io/BRG4-IO/updates/start/</guid>
+      <description>Es geht ein wenig um die Vorgeschichte</description>
+    </item>
+    <item>
+      <title>Learn C&#43;&#43;</title>
+      <link>https://integratedturtle.github.io/BRG4-IO/tutorial/learncpp/</link>
+      <pubDate>Wed, 29 May 2024 13:25:57 +0200</pubDate>
+      <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/learncpp/</guid>
+      <description>Video Playlist for learning C++ for beginners&#xA;Interactive websites If you&amp;rsquo;re starting from scratch Bit more advanced learning website&#xA;USA IOI Training Website&#xA;More in depth and advanced Topics\</description>
     </item>
   </channel>
 </rss>
