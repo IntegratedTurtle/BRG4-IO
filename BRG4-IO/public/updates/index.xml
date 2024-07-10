@@ -7,21 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Sir Karl Popper Schule</copyright>
-    <lastBuildDate>Thu, 06 Jun 2024 15:19:50 +0200</lastBuildDate>
-    <atom:link href="https://integratedturtle.github.io/BRG4-IO/updates/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jun 2024 15:19:50 +0200</lastBuildDate><atom:link href="https://integratedturtle.github.io/BRG4-IO/updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Anmeldung</title>
       <link>https://integratedturtle.github.io/BRG4-IO/updates/anmeldung/</link>
       <pubDate>Thu, 06 Jun 2024 15:19:50 +0200</pubDate>
+      
       <guid>https://integratedturtle.github.io/BRG4-IO/updates/anmeldung/</guid>
-      <description>Was ist ein Club? Ein Club ist eine Versammlung von SchülerInnen der Oberstufe, die sich regelmäßig treffen und dabei einem gemeinsamen Hobby oder einem Interesse nachgehen. (z.B. Schach-, Debattier-Club, Musik-Trio, …)&#xA;Wie Meldet man sich an Das unten Angeheftete pdf ausfüllen und einem von uns beim nächsten Treffen in die Hand drücken&#xA;Wer ist Clubleiter Ben Kinigadner&#xA;Anmeldungs pdf</description>
+      <description>Was ist ein Club? Ein Club ist eine Versammlung von SchülerInnen der Oberstufe, die sich regelmäßig treffen und dabei einem gemeinsamen Hobby oder einem Interesse nachgehen. (z.B. Schach-, Debattier-Club, Musik-Trio, …)
+Wie Meldet man sich an Das unten Angeheftete pdf ausfüllen und einem von uns beim nächsten Treffen in die Hand drücken
+Wer ist Clubleiter Ben Kinigadner
+Anmeldungs pdf</description>
     </item>
+    
     <item>
-      <title>Warum machen wir das</title>
+      <title>Unser Log</title>
       <link>https://integratedturtle.github.io/BRG4-IO/updates/start/</link>
       <pubDate>Thu, 06 Jun 2024 00:28:59 +0200</pubDate>
+      
       <guid>https://integratedturtle.github.io/BRG4-IO/updates/start/</guid>
-      <description>Es geht ein wenig um die Vorgeschichte</description>
+      <description>2023 Die IOI und deren Qualification in Wien entdeckt und teilgenommen 2024 Wien Camp 5 Schueler im Wien Camp Woergel 3 Schueler in Woergel Mitteleuropaeische Informatik Olympiade 1 Schueler </description>
     </item>
+    
   </channel>
 </rss>

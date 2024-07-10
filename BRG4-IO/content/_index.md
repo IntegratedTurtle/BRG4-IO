@@ -5,8 +5,8 @@ draft = false
 +++
 
 # Raum
-Latein Lab
+Noch unbekannt
 # Uhrzeit
-Dienstag 7. Stunde
+Noch unbekannt
 # Wer
-Alle sind willkommen
+Bei den ersten Treffen sind alle willkommen.
