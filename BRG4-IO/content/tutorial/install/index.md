@@ -26,3 +26,22 @@ Wir arbeiten mit g++ und werden auch den Windows Menschen diesen Compiler instal
 ```
 apt install build-essential
 ```
+
+## Editor
+### Doom Emacs
+### Nano
+The nano config file is under
+```
+/etc/nanorc
+```
+A cpp file is just a normal text file but there are still some settings I would change
+```
+set linenumbers
+set matchbrackets "(<[{)>]}"
+set saveonexit
+```
+Fuer code highliting laded euch diese Datei runter [[c.nanorc]] und schreibt in eure nano config
+```
+include "PATHTO/c.nanorc"
+```
+### VSCODE
