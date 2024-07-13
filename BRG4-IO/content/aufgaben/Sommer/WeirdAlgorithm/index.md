@@ -5,8 +5,6 @@ draft = false
 Description = 'Aufgaben um mit dem syntax vertraut zu werden'
 +++
 [Website](https://cses.fi/problemset/task/1068)
-Hier ist der verbesserte Artikel:
-
 ## Hilfe
 Vor allem am Anfang kann man wirklich gut ChatGPT oder ähnliche Tools nach Hilfe fragen. Sprachmodelle sind gut darin, gelöste Probleme zu erklären.
 
