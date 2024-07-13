@@ -4,21 +4,17 @@
     <title>Tutorials on BG und BRG4-IOI</title>
     <link>https://integratedturtle.github.io/BRG4-IO/tutorial/</link>
     <description>Recent content in Tutorials on BG und BRG4-IOI</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>de-de</language>
     <copyright>Sir Karl Popper Schule</copyright>
-    <lastBuildDate>Mon, 10 Jun 2024 14:45:33 +0200</lastBuildDate><atom:link href="https://integratedturtle.github.io/BRG4-IO/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 May 2024 13:25:57 +0200</lastBuildDate>
+    <atom:link href="https://integratedturtle.github.io/BRG4-IO/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn C&#43;&#43;</title>
       <link>https://integratedturtle.github.io/BRG4-IO/tutorial/learncpp/</link>
       <pubDate>Wed, 29 May 2024 13:25:57 +0200</pubDate>
-      
       <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/learncpp/</guid>
-      <description>Video Playlist for learning C++ for beginners
-Interactive websites If you&amp;rsquo;re starting from scratch Bit more advanced learning website
-USA IOI Training Website
-More in depth and advanced Topics\</description>
+      <description>Video Playlist for learning C++ for beginners&#xA;Interactive websites If you&amp;rsquo;re starting from scratch Bit more advanced learning website&#xA;USA IOI Training Website&#xA;More in depth and advanced Topics\</description>
     </item>
-    
   </channel>
 </rss>

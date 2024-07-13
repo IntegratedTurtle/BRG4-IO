@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Weird Algorithm - BG und BRG4-IOI</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  <meta itemprop="name" content="Weird Algorithm">
+  <meta itemprop="description" content="Aufgaben um mit dem syntax vertraut zu werden">
+  <meta itemprop="datePublished" content="2024-07-11T22:55:44+02:00">
+  <meta itemprop="dateModified" content="2024-07-11T22:55:44+02:00">
+  <meta itemprop="wordCount" content="987"><meta property="og:url" content="https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/weirdalgorithm/">
+  <meta property="og:site_name" content="BG und BRG4-IOI">
+  <meta property="og:title" content="Weird Algorithm">
+  <meta property="og:description" content="Aufgaben um mit dem syntax vertraut zu werden">
+  <meta property="og:locale" content="de_de">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="aufgaben">
+    <meta property="article:published_time" content="2024-07-11T22:55:44+02:00">
+    <meta property="article:modified_time" content="2024-07-11T22:55:44+02:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Weird Algorithm">
+  <meta name="twitter:description" content="Aufgaben um mit dem syntax vertraut zu werden">
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="https://integratedturtle.github.io/BRG4-IO/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://integratedturtle.github.io/BRG4-IO/css/main.css" />
+
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://integratedturtle.github.io/BRG4-IO/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<script src="https://integratedturtle.github.io/BRG4-IO/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="https://integratedturtle.github.io/BRG4-IO/">BG und BRG4-IOI</a></h1>
+	<div class="site-description"><p>Alle infos zum Informatik-Olympiade Club des BG und BRG4</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/IntegratedTurtle/BRG4-IO/" title="Github"><i data-feather="github"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li><li><a href="#" class="scheme-toggle" id="scheme-toggle"></a></li></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/BRG4-IO/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/BRG4-IO/updates">Updates</a>
+			</li>
+			
+			<li>
+				<a href="/BRG4-IO/tutorial">Tutorial</a>
+			</li>
+			
+			<li>
+				<a href="/BRG4-IO/aufgaben">Aufgaben</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">11</span>
+							<span class="rest">Jul 2024</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Weird Algorithm</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<p><a href="https://cses.fi/problemset/task/1068">Website</a>
+Hier ist der verbesserte Artikel:</p>
+<h2 id="hilfe">Hilfe</h2>
+<p>Vor allem am Anfang kann man wirklich gut ChatGPT oder ähnliche Tools nach Hilfe fragen. Sprachmodelle sind gut darin, gelöste Probleme zu erklären.</p>
+<h2 id="lösung">Lösung</h2>
+<p>Man startet einmal mit einem Boilerplate. Das bedeutet, es gibt einige Dinge, die wir schreiben müssen und die für &ldquo;jedes&rdquo; Programm gleich sind.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">#include</span> <span style="color:#00f">&lt;iostream&gt;</span><span style="color:#00f">
+</span></span></span><span style="display:flex;"><span><span style="color:#00f"></span>
+</span></span><span style="display:flex;"><span><span style="color:#2b91af">int</span> main() {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li><code>#include &lt;iostream&gt;</code>: Damit unterstützen wir, dass wir mit der Kommandozeile interagieren können, weil wir eine Zahl einlesen und dann auch Zahlen ausgeben möchten.</li>
+<li><code>int main() {}</code>: Wenn ihr euch C++ schon angeschaut habt, werdet ihr sehen, dass <code>main</code> eine Funktion ist, die einen ganzzahligen Wert zurückgibt. Damit wird in C++ einfach nur gekennzeichnet, wo das Programm starten soll.</li>
+</ul>
+<h3 id="einlesen-von-variablen">Einlesen von Variablen</h3>
+<p>Dazu wird es unter Tutorials noch einen eigenen Eintrag geben, da diese Sektion im Endeffekt auswendig gelernt werden muss. Es ist nicht viel, aber da es so wenig ist, muss man es sich nicht jedes Mal logisch erschließen, sondern kann sich einfach Muster merken.</p>
+<p>In dieser Aufgabe müssen wir die Variable <code>n</code> speichern, welche unser Startpunkt ist. <code>n</code> wird hierbei immer eine ganze Zahl sein, also können wir einmal die Variable <code>n</code> anlegen.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">#include</span> <span style="color:#00f">&lt;iostream&gt;</span><span style="color:#00f">
+</span></span></span><span style="display:flex;"><span><span style="color:#00f"></span>
+</span></span><span style="display:flex;"><span><span style="color:#2b91af">int</span> main() {
+</span></span><span style="display:flex;"><span>    <span style="color:#2b91af">int</span> n;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Als Kommandozeileneingabe bekommen wir eine Zahl, so können wir diese eine Zahl auch in der Variable abspeichern.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">#include</span> <span style="color:#00f">&lt;iostream&gt;</span><span style="color:#00f">
+</span></span></span><span style="display:flex;"><span><span style="color:#00f"></span>
+</span></span><span style="display:flex;"><span><span style="color:#2b91af">int</span> main() {
+</span></span><span style="display:flex;"><span>    <span style="color:#2b91af">int</span> n;
+</span></span><span style="display:flex;"><span>    std::cin &gt;&gt; n;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><code>std::cin</code> ist hierbei der Befehl, welcher Kommandozeileneingaben annimmt. Mit den <code>&gt;&gt;</code> können wir das, was davon eingefangen wurde, in eine Variable schieben, hierbei in die Variable <code>n</code>.</p>
+<h3 id="logik">Logik</h3>
+<p>Wenn man sich das Beispiel anschaut, wird man sehen, dass es zwei Modi geben muss. Wenn die Variable <code>n</code> gerade ist, wird A getan, wenn sie ungerade ist, B. Um das zu erreichen, können wir <code>if</code> und <code>else</code> verwenden.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">if</span> (gerade) {
+</span></span><span style="display:flex;"><span>    <span style="color:#008000">// A
+</span></span></span><span style="display:flex;"><span><span style="color:#008000"></span>} <span style="color:#00f">else</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#008000">// B
+</span></span></span><span style="display:flex;"><span><span style="color:#008000"></span>}
+</span></span></code></pre></div><p>Da eine Zahl, wenn sie nicht gerade ist, ungerade ist, müssen wir nur einen Check durchführen. In C++ prüft man, ob eine Variable gerade ist, mit dem Modulo von 2 und schaut dann, ob es 0 ist.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">if</span> (n % 2 == 0) {
+</span></span><span style="display:flex;"><span>    <span style="color:#008000">// A
+</span></span></span><span style="display:flex;"><span><span style="color:#008000"></span>} <span style="color:#00f">else</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#008000">// B
+</span></span></span><span style="display:flex;"><span><span style="color:#008000"></span>}
+</span></span></code></pre></div><blockquote>
+<p>Modulo wird in C++ mit <code>%</code> beschrieben und bedeutet praktisch <code>a % b = c</code>. Wenn wir <code>a</code> durch <code>b</code> dividieren, kommt <code>c</code> als Rest heraus. Wenn man durch 2 dividiert und das Ergebnis gleich 0 ist, dann ist die Zahl gerade.</p>
+</blockquote>
+<h3 id="aktion">Aktion</h3>
+<p>Jetzt ist die Frage, was passiert denn in Szenario A und in Szenario B?</p>
+<ul>
+<li>A: Die Variable wird halbiert -&gt; <code>n / 2</code></li>
+<li>B: Die Variable wird mit 3 multipliziert und dann 1 addiert -&gt; <code>n * 3 + 1</code></li>
+</ul>
+<p>Eingetragen sieht das so aus:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">if</span> (n % 2 == 0) {
+</span></span><span style="display:flex;"><span>    n / 2;
+</span></span><span style="display:flex;"><span>} <span style="color:#00f">else</span> {
+</span></span><span style="display:flex;"><span>    n * 3 + 1;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Die Frage ist jetzt, wie speichern wir das. Normalerweise speichert man, wenn man Daten hat, diese in Variablen. Da wir <code>n</code> danach nicht mehr brauchen werden, können wir <code>n</code> einfach wieder benutzen.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">if</span> (n % 2 == 0) {
+</span></span><span style="display:flex;"><span>    n = n / 2;
+</span></span><span style="display:flex;"><span>} <span style="color:#00f">else</span> {
+</span></span><span style="display:flex;"><span>    n = n * 3 + 1;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><blockquote>
+<p>Semikolon nicht vergessen</p>
+</blockquote>
+<h3 id="schleife">Schleife</h3>
+<p>Wenn wir uns die Aufgabenstellung nochmal durchlesen, wird sofort klar, dass es sich in der Aufgabe um eine Schleife handelt. Man soll eine gewisse Aktion so lange durchführen, bis ein bestimmtes Ergebnis gegeben ist. C++ hat für solche Aufgaben die Syntax der while-Schleife.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">while</span> (CHECKER) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Die while-Schleife wiederholt etwas, solange ihr Bedingungsausdruck TRUE ist. In unserem Fall soll sie sich wiederholen, solange <code>n</code> nicht 1 ist, weil dann soll das Programm enden.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">while</span> (n != 1) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><blockquote>
+<p><code>a != b</code> gibt TRUE zurück, wenn die Werte nicht gleich sind.</p>
+</blockquote>
+<p>Jetzt muss die Logik nur noch in die Schleife gesetzt werden.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">while</span> (n != 1) {
+</span></span><span style="display:flex;"><span>    <span style="color:#00f">if</span> (n % 2 == 0) {
+</span></span><span style="display:flex;"><span>        n = n / 2;
+</span></span><span style="display:flex;"><span>    } <span style="color:#00f">else</span> {
+</span></span><span style="display:flex;"><span>        n = n * 3 + 1;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Das Programm startet jetzt mit einem <code>n</code> und endet, wenn <code>n</code> 1 ist.</p>
+<h3 id="ein--und-ausgabe">Ein- und Ausgabe</h3>
+<p>Verbinden wir das Programm mit dem Einlesen der Variable, die wir am Anfang hatten:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">#include</span> <span style="color:#00f">&lt;iostream&gt;</span><span style="color:#00f">
+</span></span></span><span style="display:flex;"><span><span style="color:#00f"></span>
+</span></span><span style="display:flex;"><span><span style="color:#2b91af">int</span> main() {
+</span></span><span style="display:flex;"><span>    <span style="color:#2b91af">int</span> n;
+</span></span><span style="display:flex;"><span>    std::cin &gt;&gt; n;
+</span></span><span style="display:flex;"><span>    <span style="color:#00f">while</span> (n != 1) {
+</span></span><span style="display:flex;"><span>        <span style="color:#00f">if</span> (n % 2 == 0) {
+</span></span><span style="display:flex;"><span>            n = n / 2;
+</span></span><span style="display:flex;"><span>        } <span style="color:#00f">else</span> {
+</span></span><span style="display:flex;"><span>            n = n * 3 + 1;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Das Programm kann jetzt die Variable <code>n</code> einlesen und durch die Logik laufen. Verlangt von der Aufgabe ist jetzt aber, dass jeder Schritt dokumentiert wird, indem wir die Zwischenergebnisse in die Kommandozeile schreiben. In die Kommandozeile schreibt man mit <code>std::cout &lt;&lt;</code>. Das Ziel ist, jeden Schritt zu dokumentieren, indem man die Variable in die Kommandozeile schreibt. Dazu müssen wir einen Ort auswählen, den die Variable in den meisten ihrer Fälle durchläuft.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">#include</span> <span style="color:#00f">&lt;iostream&gt;</span><span style="color:#00f">
+</span></span></span><span style="display:flex;"><span><span style="color:#00f"></span>
+</span></span><span style="display:flex;"><span><span style="color:#2b91af">int</span> main() {
+</span></span><span style="display:flex;"><span>    <span style="color:#2b91af">int</span> n;
+</span></span><span style="display:flex;"><span>    std::cin &gt;&gt; n;
+</span></span><span style="display:flex;"><span>    <span style="color:#00f">while</span> (n != 1) {
+</span></span><span style="display:flex;"><span>        std::cout &lt;&lt; n &lt;&lt; <span style="color:#a31515">&#34; &#34;</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#00f">if</span> (n % 2 == 0) {
+</span></span><span style="display:flex;"><span>            n = n / 2;
+</span></span><span style="display:flex;"><span>        } <span style="color:#00f">else</span> {
+</span></span><span style="display:flex;"><span>            n = n * 3 + 1;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Ich habe mich hier für die Zeile unter dem while-Loop entschieden. Jedes Mal, solange der Wert nicht 1 ist, schreibt <code>std::cout &lt;&lt;</code> die Variable in die Kommandozeile und hängt einen Abstand dazu. Es gibt nur noch ein Problem: Wir sollten auch den letzten Zustand schreiben, aber wenn <code>n == 1</code> ist, dann bricht die Schleife ab und <code>std::cout</code> wird nicht mehr ausgeführt. Deshalb muss ganz am Ende nochmal <code>n</code> ausgegeben werden und auch die Zeile beendet werden. Das macht man mit <code>std::endl</code>.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">#include</span> <span style="color:#00f">&lt;iostream&gt;</span><span style="color:#00f">
+</span></span></span><span style="display:flex;"><span><span style="color:#00f"></span>
+</span></span><span style="display:flex;"><span><span style="color:#2b91af">int</span> main() {
+</span></span><span style="display:flex;"><span>    <span style="color:#2b91af">int</span> n;
+</span></span><span style="display:flex;"><span>    std::cin &gt;&gt; n;
+</span></span><span style="display:flex;"><span>    <span style="color:#00f">while</span> (n != 1) {
+</span></span><span style="display:flex;"><span>        std::cout &lt;&lt; n &lt;&lt; <span style="color:#a31515">&#34; &#34;</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#00f">if</span> (n % 2 == 0) {
+</span></span><span style="display:flex;"><span>            n = n / 2;
+</span></span><span style="display:flex;"><span>        } <span style="color:#00f">else</span> {
+</span></span><span style="display:flex;"><span>            n = n * 3 + 1;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    std::cout &lt;&lt; n &lt;&lt; std::endl;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Jetzt ist das Programm komplett und erfüllt die Aufgabe.</p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+				
+			</div></div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>2024  Sir Karl Popper Schule |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div><script>feather.replace()</script>
+</body>
+</html>
