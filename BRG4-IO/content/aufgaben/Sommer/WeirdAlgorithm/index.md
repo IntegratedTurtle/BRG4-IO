@@ -169,13 +169,13 @@ int main() {
 }
 ```
 
-Ich habe mich hier für die Zeile unter dem while-Loop entschieden. Jedes Mal, solange der Wert nicht 1 ist, schreibt `std::cout <<` die Variable in die Kommandozeile und hängt einen Abstand dazu. Es gibt nur noch ein Problem: Wir sollten auch den letzten Zustand schreiben, aber wenn `n == 1` ist, dann bricht die Schleife ab und `std::cout` wird nicht mehr ausgeführt. Deshalb muss ganz am Ende nochmal `n` ausgegeben werden und auch die Zeile beendet werden. Das macht man mit `std::endl`.
+Ich habe mich hier für die Zeile unter dem while-Loop entschieden. Jedes Mal, solange der Wert nicht 1 ist, schreibt `std::cout <<` die Variable in die Kommandozeile und hängt einen Abstand dazu. Es gibt nur noch ein Problem: Wir sollten auch den letzten Zustand schreiben, aber wenn `n == 1` ist, dann bricht die Schleife ab und `std::cout` wird nicht mehr ausgeführt. Deshalb muss ganz am Ende nochmal `n` ausgegeben werden und auch die Zeile beendet werden. Das macht man mit `std::endl`. Außerdem gibt es bei der Aufgabe einen kleinen Hacken. Denn während n auf eine Zahl zwischen 1 und 100 000 limitiert ist, kann es gut sein (und Spoiler: passiert auch), dass n noch um einiges größer wird, bevor es zu Eins wird. Eine Variable des Typen `int` kann jede ganze Zahle zwischen `-2³¹` und `2³¹` annehmen. Für manche Startwerte von n wird n allerdings größer als besagtes Limit. Daher muss man auf einen anderen Datentyp zurückgreifen: `long long`. Dieser kann jede beliebige ganze Zahl zwischen `-2⁶³` und `2⁶³` annehmen und ist ausreichend groß. Um diese Änderung vorzunehmen, muss man nur bei der Initialisierung der Variable `n` `int` zu einem `long long` austauchen.  
 
 ```cpp
 #include <iostream>
 
 int main() {
-    int n;
+    long long n;
     std::cin >> n;
     while (n != 1) {
         std::cout << n << " ";
