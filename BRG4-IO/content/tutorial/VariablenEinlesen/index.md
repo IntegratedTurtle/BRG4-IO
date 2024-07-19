@@ -106,3 +106,4 @@ Manchmal muss man wirklich schnell werden, und da reichen die Standard-IO-Tools 
 std::ios_base::sync_with_stdio(false); 
 std::cin.tie(NULL);
 ```
+Eine weitere Möglichkeit den Output signifikant zu beschleunigen ist das Vermeiden von `std::endl`. Wenn man stattdessen `"\n"` schreibt, erhält man das selbe Ergebniss, nur bedeutend schneller. WICHTIG! Am Ende des Programmes muss einmal `std::endl` ausgeführt werden, damit der Output auch wirklich geschrieben wird. Die meisten Aufgaben lassen sich allerdings auch ohne diese Tricks lösen. 

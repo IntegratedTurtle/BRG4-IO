@@ -70,8 +70,9 @@ set linenumbers
 set matchbrackets "(<[{)>]}"
 set saveonexit
 ```
-Fuer code highlighting laded euch diese Datei runter [c.nanorc](c.nanorc) und schreibt in eure nano config
+Für code highlighting laded euch diese Datei runter [c.nanorc](c.nanorc) und schreibt in eure nano config
 ```
 include "PATHTO/c.nanorc"
 ```
 ### VSCODE
+Im Extensions Tab C++ suchen und die Extension "C/C++" von Microsoft installieren - fertig.
