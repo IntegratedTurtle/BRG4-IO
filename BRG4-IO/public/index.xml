@@ -7,10 +7,17 @@
     <generator>Hugo</generator>
     <language>de-de</language>
     <copyright>Sir Karl Popper Schule</copyright>
-    <lastBuildDate>Sat, 13 Jul 2024 14:30:28 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jul 2024 19:53:07 +0200</lastBuildDate>
     <atom:link href="https://integratedturtle.github.io/BRG4-IO/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>VariablenEinlesen</title>
+      <title>Missing Number</title>
+      <link>https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/missingnumber/</link>
+      <pubDate>Thu, 18 Jul 2024 19:53:07 +0200</pubDate>
+      <guid>https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/missingnumber/</guid>
+      <description>website&#xA;Missing Number Fehlende Zahl finden Du hast die Aufgabe, eine fehlende Zahl in einer Liste von Zahlen zu finden. Die Liste enthält alle Zahlen von 1 bis n, außer einer. Deine Aufgabe ist es, die fehlende Zahl zu finden.&#xA;Eingabe Die erste Eingabezeile enthält eine ganze Zahl n. Die zweite Zeile enthält n-1 Zahlen. Jede Zahl ist eindeutig und liegt zwischen 1 und n (einschließlich).&#xA;Ausgabe Gib die fehlende Zahl aus.</description>
+    </item>
+    <item>
+      <title>Variablen einlesen</title>
       <link>https://integratedturtle.github.io/BRG4-IO/tutorial/variableneinlesen/</link>
       <pubDate>Sat, 13 Jul 2024 14:30:28 +0200</pubDate>
       <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/variableneinlesen/</guid>

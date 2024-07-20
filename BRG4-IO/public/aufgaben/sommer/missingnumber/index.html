@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Missing Number - BG und BRG4-IOI</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  <meta itemprop="name" content="Missing Number">
+  <meta itemprop="description" content="website
+Missing Number Fehlende Zahl finden Du hast die Aufgabe, eine fehlende Zahl in einer Liste von Zahlen zu finden. Die Liste enthält alle Zahlen von 1 bis n, außer einer. Deine Aufgabe ist es, die fehlende Zahl zu finden.
+Eingabe Die erste Eingabezeile enthält eine ganze Zahl n. Die zweite Zeile enthält n-1 Zahlen. Jede Zahl ist eindeutig und liegt zwischen 1 und n (einschließlich).
+Ausgabe Gib die fehlende Zahl aus.">
+  <meta itemprop="datePublished" content="2024-07-18T19:53:07+02:00">
+  <meta itemprop="dateModified" content="2024-07-18T19:53:07+02:00">
+  <meta itemprop="wordCount" content="1088"><meta property="og:url" content="https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/missingnumber/">
+  <meta property="og:site_name" content="BG und BRG4-IOI">
+  <meta property="og:title" content="Missing Number">
+  <meta property="og:description" content="website
+Missing Number Fehlende Zahl finden Du hast die Aufgabe, eine fehlende Zahl in einer Liste von Zahlen zu finden. Die Liste enthält alle Zahlen von 1 bis n, außer einer. Deine Aufgabe ist es, die fehlende Zahl zu finden.
+Eingabe Die erste Eingabezeile enthält eine ganze Zahl n. Die zweite Zeile enthält n-1 Zahlen. Jede Zahl ist eindeutig und liegt zwischen 1 und n (einschließlich).
+Ausgabe Gib die fehlende Zahl aus.">
+  <meta property="og:locale" content="de_de">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="aufgaben">
+    <meta property="article:published_time" content="2024-07-18T19:53:07+02:00">
+    <meta property="article:modified_time" content="2024-07-18T19:53:07+02:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Missing Number">
+  <meta name="twitter:description" content="website
+Missing Number Fehlende Zahl finden Du hast die Aufgabe, eine fehlende Zahl in einer Liste von Zahlen zu finden. Die Liste enthält alle Zahlen von 1 bis n, außer einer. Deine Aufgabe ist es, die fehlende Zahl zu finden.
+Eingabe Die erste Eingabezeile enthält eine ganze Zahl n. Die zweite Zeile enthält n-1 Zahlen. Jede Zahl ist eindeutig und liegt zwischen 1 und n (einschließlich).
+Ausgabe Gib die fehlende Zahl aus.">
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="https://integratedturtle.github.io/BRG4-IO/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://integratedturtle.github.io/BRG4-IO/css/main.css" />
+
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://integratedturtle.github.io/BRG4-IO/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<script src="https://integratedturtle.github.io/BRG4-IO/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="https://integratedturtle.github.io/BRG4-IO/">BG und BRG4-IOI</a></h1>
+	<div class="site-description"><p>Alle infos zum Informatik-Olympiade Club des BG und BRG4</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/IntegratedTurtle/BRG4-IO/" title="Github"><i data-feather="github"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li><li><a href="#" class="scheme-toggle" id="scheme-toggle"></a></li></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/BRG4-IO/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/BRG4-IO/updates">Updates</a>
+			</li>
+			
+			<li>
+				<a href="/BRG4-IO/tutorial">Tutorial</a>
+			</li>
+			
+			<li>
+				<a href="/BRG4-IO/aufgaben">Aufgaben</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">18</span>
+							<span class="rest">Jul 2024</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Missing Number</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<p><a href="https://cses.fi/problemset/task/1083">website</a></p>
+<h1 id="missing-number">Missing Number</h1>
+<h1 id="fehlende-zahl-finden">Fehlende Zahl finden</h1>
+<p>Du hast die Aufgabe, eine fehlende Zahl in einer Liste von Zahlen zu finden. Die Liste enthält alle Zahlen von 1 bis n, außer einer. Deine Aufgabe ist es, die fehlende Zahl zu finden.</p>
+<h2 id="eingabe">Eingabe</h2>
+<p>Die erste Eingabezeile enthält eine ganze Zahl n. Die zweite Zeile enthält n-1 Zahlen. Jede Zahl ist eindeutig und liegt zwischen 1 und n (einschließlich).</p>
+<h2 id="ausgabe">Ausgabe</h2>
+<p>Gib die fehlende Zahl aus.</p>
+<h2 id="beispiel">Beispiel</h2>
+<p>Eingabe:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>5
+</span></span><span style="display:flex;"><span>2 3 1 5
+</span></span></code></pre></div><p>Ausgabe:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>4
+</span></span></code></pre></div><h2 id="lösung">Lösung</h2>
+<p>Wir beginnen wieder mit dem Standard-Codegerüst:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">#include</span> <span style="color:#00f">&lt;iostream&gt;</span><span style="color:#00f">
+</span></span></span><span style="display:flex;"><span><span style="color:#00f">#include</span> <span style="color:#00f">&lt;vector&gt;</span><span style="color:#00f">
+</span></span></span><span style="display:flex;"><span><span style="color:#00f"></span><span style="color:#00f">using</span> <span style="color:#00f">namespace</span> std;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#2b91af">int</span> main() {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li><code>#include &lt;vector&gt;</code>: Da wir dieses Mal mit einer unbestimmten Anzahl von Zahlen arbeiten, importieren wir die <code>vector</code>-Klasse. Ein <code>vector</code> ist eine Möglichkeit, dynamisch viele Variablen in einer Liste zu speichern.</li>
+<li><code>using namespace std;</code>: Du hast vielleicht bemerkt, dass wir im vorherigen Algorithmus oft <code>std::cout</code> geschrieben haben. Wir können uns das Leben leichter machen und sagen, dass wir <code>std</code> vor <code>cout</code> nicht mehr brauchen. Warum man dies außerhalb von Wettbewerbsprogrammierung nicht tun sollte, kann ich bei Bedarf persönlich erklären.</li>
+</ul>
+<h3 id="einlesen-von-variablen">Einlesen von Variablen</h3>
+<p><a href="https://integratedturtle.github.io/BRG4-IO/tutorial/variableneinlesen/">Variablen einlesen</a></p>
+<p>Dieses Mal müssen wir eine Zahl, die wir <code>n</code> nennen, einlesen und dann <code>n-1</code> weitere Zahlen.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#2b91af">int</span> main() {
+</span></span><span style="display:flex;"><span>    <span style="color:#2b91af">int</span> n, a;
+</span></span><span style="display:flex;"><span>    cin &gt;&gt; n;
+</span></span><span style="display:flex;"><span>    vector&lt;<span style="color:#2b91af">int</span>&gt; values;
+</span></span><span style="display:flex;"><span>    <span style="color:#00f">for</span>(<span style="color:#2b91af">int</span> i = 0; i &lt; n - 1; i++){
+</span></span><span style="display:flex;"><span>        cin &gt;&gt; a;
+</span></span><span style="display:flex;"><span>        values.push_back(a);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Wie im separaten Artikel bereits erwähnt, erstellen wir zuerst zwei Variablen, <code>n</code> und <code>a</code>. Da wir die Zahl <code>n</code> als erstes erhalten, speichern wir diese mit <code>cin &gt;&gt; n;</code> in der Variable <code>n</code>. Dann erstellen wir einen <code>vector</code>, wobei wir angeben müssen, welchen Datentyp wir in diesem <code>vector</code> speichern werden. Da es weitere Zahlen sein werden, schreiben wir <code>&lt;int&gt;</code> hinter <code>vector</code>. Jetzt weichen wir ein wenig von der Standard-Implementierung ab, denn in der Aufgabenstellung steht, dass uns <code>n-1</code> verschiedene Variablen gegeben werden. Deshalb können wir nicht die gesamte Zahl <code>n</code> einlesen, sondern müssen 1 abziehen. Für jede Zahl lesen wir also die Variable ein, speichern sie in <code>a</code> und fügen <code>a</code> dann in den <code>vector</code> ein.</p>
+<h3 id="logik">Logik</h3>
+<p>Unsere Daten sind eine ungeordnete Liste von Zahlen, die alle Zahlen bis auf eine enthält. Die Frage ist, wie wir herausfinden können, welche der Zahlen diejenige ist, die noch nicht vorgekommen ist. Wir müssen dabei beachten, dass der Algorithmus sehr viele Zahlen verarbeiten kann und nicht so schnell wie wir Menschen viele Zahlen auf einmal betrachten kann. Deshalb sollten wir eine Liste führen, welche Zahlen wir schon gefunden haben und welche nicht. Die Zahl, die am Ende ungefunden bleibt, ist die, welche nicht aufgelistet wurde. Zum Glück wissen wir genau, welche Zahlen vorkommen sollten, und so können wir uns eine Liste erstellen, in der wir vermerken, welche Zahlen schon vorgekommen sind.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>vector&lt;<span style="color:#2b91af">bool</span>&gt; theo_values(n, false);
+</span></span></code></pre></div><p>Hier wird ein <code>vector</code> erstellt, der <code>bool</code>-Werte (also <code>true</code> oder <code>false</code>) speichert. Wenn wir den Namen schreiben, können wir diesem auch ein paar Parameter mitgeben, die den <code>vector</code> von Anfang an formatieren. Wenn wir uns den <code>vector</code> von vorher ansehen, den wir zum Einlesen von Variablen verwendet haben, ist dieser zuerst einmal leer. Mit <code>push_back()</code> erweitern wir diesen dann. Das ist sehr einfach, bringt aber, wie wir später besprechen werden, wenn man besonders schnell sein will, einige Einschränkungen mit sich. In dieser Schreibweise können wir von Anfang an sagen, wie groß der <code>vector</code> sein soll. In diesem Fall soll er <code>n</code> groß sein. Im zweiten Parameter können wir einen Wert definieren, den alle Werte im <code>vector</code> von Anfang an annehmen sollen. Da wir eine Liste wollen, sind diese am Anfang einmal alle <code>false</code>, das bedeutet, dass wir diese Werte noch nicht gefunden haben. Da die Werte, die kommen könnten, in einer Reihenfolge sind, können wir sagen, dass wir an der Position des Wertes vermerken, ob wir diesen Wert schon gefunden haben.</p>
+<h3 id="abhaken">Abhaken</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>n = 5, values = {2, 3, 1, 5}, theo_values = { false, false, false, false, false }
+</span></span></code></pre></div><p>Das Ziel ist jetzt, durch den <code>values</code>-Vector zu gehen und jede Zahl, die wir finden, abzuhaken. Also ungefähr so:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>2 -&gt; { false, true, false, false, false } // Da es von 1-n geht, beginnen wir bei 1 zu zählen
+</span></span><span style="display:flex;"><span>3 -&gt; { false, true, true , false, false }
+</span></span><span style="display:flex;"><span>1 -&gt; { true , true, true , false, false }
+</span></span><span style="display:flex;"><span>5 -&gt; { true , true, true , false, true  }
+</span></span></code></pre></div><p>Damit wir das tun können, müssen wir zuerst einmal über alle Zahlen iterieren.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">for</span>(<span style="color:#2b91af">int</span> value : values){
+</span></span><span style="display:flex;"><span>    value
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>In dieser <code>for</code>-Schleife sagen wir, dass wir eine neue Variable definieren, in diesem Fall <code>value</code>, und die Schleife soll sich so oft wiederholen, dass <code>value</code> jeden Wert im <code>values</code>-Vector einmal annimmt (natürlich in der Reihenfolge). Somit gehen wir automatisch über jeden Wert im <code>vector</code>.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">for</span>(<span style="color:#2b91af">int</span> value : values){
+</span></span><span style="display:flex;"><span>    theo_values[value - 1] = true;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Damit wir in der Liste abhaken können, welchen Wert wir schon besucht haben, müssen wir nur an dem Index des Wertes den Wert von <code>theo_values</code> auf <code>true</code> setzen. Da unsere Zahlen aber von 1 bis n gehen und das Indizieren in C++ mit 0 beginnt, müssen wir dem Wert noch einmal 1 subtrahieren, damit der Wert <code>value = 1</code> auch an der ersten, also der nullten Stelle geschrieben wird.</p>
+<h3 id="auswerten">Auswerten</h3>
+<p>Jetzt müssen wir nur noch herausfinden, welcher der Werte nicht <code>true</code> ist, also wir nicht gefunden haben, und diesen mit einem <code>cout</code> ausgeben. Dafür sollten wir wieder über alle Werte im <code>theo_values</code>-Vector gehen, uns den Index merken und dann, wenn der Wert nicht <code>true</code> ist, den Index ausgeben.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">for</span>(<span style="color:#2b91af">int</span> i = 0; i &lt; theo_values.size(); i++){
+</span></span><span style="display:flex;"><span>    <span style="color:#00f">if</span> (!theo_values[i]) {
+</span></span><span style="display:flex;"><span>        cout &lt;&lt; i + 1;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Hier haben wir wieder eine klassische <code>for</code>-Schleife, in der wir <code>i</code> alle Indizes im <code>theo_values</code>-Vector annehmen lassen. Wir können jetzt jedes Mal in der Schleife uns ansehen, ob der gerade angesehene Wert wahr ist, und wenn er es nicht ist, was wir mit dem <code>!</code> besagen, den Codeblock in den darauf folgenden Klammern ausführen. Also, wenn wir uns mit dem Index jeden Wert ansehen und feststellen, dass er nicht <code>true</code> ist, geben wir den Index aus. Dieses Mal wieder mit <code>+1</code>, da wir ja bei 0 begonnen haben zu zählen, aber die Werte bei 1.</p>
+<h1 id="fertig">Fertig</h1>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">#include</span> <span style="color:#00f">&#34;iostream&#34;</span><span style="color:#00f">;
+</span></span></span><span style="display:flex;"><span><span style="color:#00f">#include</span> <span style="color:#00f">&#34;vector&#34;</span><span style="color:#00f">
+</span></span></span><span style="display:flex;"><span><span style="color:#00f"></span><span style="color:#00f">using</span> <span style="color:#00f">namespace</span> std;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#2b91af">int</span> main() {
+</span></span><span style="display:flex;"><span>    <span style="color:#2b91af">int</span> n, a;
+</span></span><span style="display:flex;"><span>    cin &gt;&gt; n;
+</span></span><span style="display:flex;"><span>    vector&lt;<span style="color:#2b91af">int</span>&gt; values;
+</span></span><span style="display:flex;"><span>    <span style="color:#00f">for</span>(<span style="color:#2b91af">int</span> i = 0; i &lt; n - 1; i++){
+</span></span><span style="display:flex;"><span>        cin &gt;&gt; a;
+</span></span><span style="display:flex;"><span>        values.push_back(a);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    vector&lt;<span style="color:#2b91af">bool</span>&gt; theo_values(n, false);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00f">for</span>(<span style="color:#2b91af">int</span> value : values){
+</span></span><span style="display:flex;"><span>        theo_values[value - 1] = true;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00f">for</span>(<span style="color:#2b91af">int</span> i = 0; i &lt; theo_values.size(); i++){
+</span></span><span style="display:flex;"><span>        <span style="color:#00f">if</span> (!theo_values[i]) {
+</span></span><span style="display:flex;"><span>            cout &lt;&lt; i + 1;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+			</div>
+
+			<div class="tags">
+				
+					
+				
+			</div></div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>2024  Sir Karl Popper Schule |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div><script>feather.replace()</script>
+</body>
+</html>

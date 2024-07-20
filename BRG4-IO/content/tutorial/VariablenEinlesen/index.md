@@ -1,5 +1,5 @@
 +++
-title = 'VariablenEinlesen'
+title = 'Variablen einlesen'
 date = 2024-07-13T14:30:28+02:00
 draft = false
 +++

@@ -24,6 +24,7 @@ int main() {
 
 ### Einlesen von Variablen
 Dazu wird es unter Tutorials noch einen eigenen Eintrag geben, da diese Sektion im Endeffekt auswendig gelernt werden muss. Es ist nicht viel, aber da es so wenig ist, muss man es sich nicht jedes Mal logisch erschließen, sondern kann sich einfach Muster merken.
+[Variablen einlsen](https://integratedturtle.github.io/BRG4-IO/tutorial/variableneinlesen/)
 
 In dieser Aufgabe müssen wir die Variable `n` speichern, welche unser Startpunkt ist. `n` wird hierbei immer eine ganze Zahl sein, also können wir einmal die Variable `n` anlegen.
 
