@@ -31,6 +31,20 @@
       <description>Website&#xA;Hilfe Vor allem am Anfang kann man wirklich gut ChatGPT oder ähnliche Tools nach Hilfe fragen. Sprachmodelle sind gut darin, gelöste Probleme zu erklären.&#xA;Lösung Man startet einmal mit einem Boilerplate. Das bedeutet, es gibt einige Dinge, die wir schreiben müssen und die für &amp;ldquo;jedes&amp;rdquo; Programm gleich sind.&#xA;#include &amp;lt;iostream&amp;gt; int main() { } #include &amp;lt;iostream&amp;gt;: Damit unterstützen wir, dass wir mit der Kommandozeile interagieren können, weil wir eine Zahl einlesen und dann auch Zahlen ausgeben möchten.</description>
     </item>
     <item>
+      <title>Gcov</title>
+      <link>https://integratedturtle.github.io/BRG4-IO/tutorial/gcov/</link>
+      <pubDate>Thu, 11 Jul 2024 10:35:02 +0200</pubDate>
+      <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/gcov/</guid>
+      <description>Gcov Wenn man Code geschrieben hat, un man sich nicht ganz sicher ist was jetzt genau passiert, oder der Code zu langsam ist, kann es nuetzlich sein sich anzusehen, wie oft welche Zeile laeuft.&#xA;Vorbereitung Compiliere deine .cpp Datei mit&#xA;--coverage Dann fuehr dein Program mit einem Testcase aus&#xA;Commands gcov test.cpp -m -k -t | less -R gcov: ruft das program auf m: Schreibt ganze funktionnamen k: Farben :-&amp;gt; t: terminal output, wenn du das Ergebniss in einen File speichern willst lass das weg, wenn du gcov aber mit less benutzen willst ist das wichtig | : Pipe: schickt output zum naechstem Command, da t aktiv ist schickt es den Text zu less R: Farben :-&amp;gt; Analyse !</description>
+    </item>
+    <item>
+      <title>Upgrade your compiler</title>
+      <link>https://integratedturtle.github.io/BRG4-IO/tutorial/gccompiler/</link>
+      <pubDate>Thu, 11 Jul 2024 08:28:12 +0200</pubDate>
+      <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/gccompiler/</guid>
+      <description>Commandline g++ hat die Moeglichkeit mit ein par command line Flags ein wenig geupgraded zu werden. https://bytes.usc.edu/cs104/wiki/gcc&#xA;Example command:&#xA;g++ -fsanitize=undefined,null -D_GLIBCXX_DEBUG -O1 -g -Wextra --std=c++17 your_program.cpp -o your_program Wall -Wextra show all warnings. It turns on all standard C++ warnings about code that might cause unexpected or undefined behavior. -02 Checks your program during the optimisations&#xA;Version --std=c++17 Allows you to use the c++ 17th edition features(build in binary search)</description>
+    </item>
+    <item>
       <title>Segtree Ressources</title>
       <link>https://integratedturtle.github.io/BRG4-IO/tutorial/topics/segtrees/other_ressources/</link>
       <pubDate>Mon, 10 Jun 2024 11:30:50 +0200</pubDate>

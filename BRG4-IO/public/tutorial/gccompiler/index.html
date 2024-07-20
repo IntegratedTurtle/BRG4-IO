@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Upgrade your compiler - BG und BRG4-IOI</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta itemprop="name" content="Upgrade your compiler">
-<meta itemprop="description" content="Commandline g&#43;&#43; hat die Moeglichkeit mit ein par command line Flags ein wenig geupgraded zu werden. https://bytes.usc.edu/cs104/wiki/gcc
+	
+  <meta itemprop="name" content="Upgrade your compiler">
+  <meta itemprop="description" content="Commandline g&#43;&#43; hat die Moeglichkeit mit ein par command line Flags ein wenig geupgraded zu werden. https://bytes.usc.edu/cs104/wiki/gcc
 Example command:
 g&#43;&#43; -fsanitize=undefined,null -D_GLIBCXX_DEBUG -O1 -g -Wextra --std=c&#43;&#43;17 your_program.cpp -o your_program Wall -Wextra show all warnings. It turns on all standard C&#43;&#43; warnings about code that might cause unexpected or undefined behavior. -02 Checks your program during the optimisations
-Version --std=c&#43;&#43;17 Allows you to use the c&#43;&#43; 17th edition features(build in binary search)"><meta itemprop="datePublished" content="2024-07-11T08:28:12+02:00" />
-<meta itemprop="dateModified" content="2024-07-11T08:28:12+02:00" />
-<meta itemprop="wordCount" content="102">
-<meta itemprop="keywords" content="" /><meta property="og:title" content="Upgrade your compiler" />
-<meta property="og:description" content="Commandline g&#43;&#43; hat die Moeglichkeit mit ein par command line Flags ein wenig geupgraded zu werden. https://bytes.usc.edu/cs104/wiki/gcc
+Version --std=c&#43;&#43;17 Allows you to use the c&#43;&#43; 17th edition features(build in binary search)">
+  <meta itemprop="datePublished" content="2024-07-11T08:28:12+02:00">
+  <meta itemprop="dateModified" content="2024-07-11T08:28:12+02:00">
+  <meta itemprop="wordCount" content="102"><meta property="og:url" content="https://integratedturtle.github.io/BRG4-IO/tutorial/gccompiler/">
+  <meta property="og:site_name" content="BG und BRG4-IOI">
+  <meta property="og:title" content="Upgrade your compiler">
+  <meta property="og:description" content="Commandline g&#43;&#43; hat die Moeglichkeit mit ein par command line Flags ein wenig geupgraded zu werden. https://bytes.usc.edu/cs104/wiki/gcc
 Example command:
 g&#43;&#43; -fsanitize=undefined,null -D_GLIBCXX_DEBUG -O1 -g -Wextra --std=c&#43;&#43;17 your_program.cpp -o your_program Wall -Wextra show all warnings. It turns on all standard C&#43;&#43; warnings about code that might cause unexpected or undefined behavior. -02 Checks your program during the optimisations
-Version --std=c&#43;&#43;17 Allows you to use the c&#43;&#43; 17th edition features(build in binary search)" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/tutorial/gccompiler/" /><meta property="article:section" content="tutorial" />
-<meta property="article:published_time" content="2024-07-11T08:28:12+02:00" />
-<meta property="article:modified_time" content="2024-07-11T08:28:12+02:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Upgrade your compiler"/>
-<meta name="twitter:description" content="Commandline g&#43;&#43; hat die Moeglichkeit mit ein par command line Flags ein wenig geupgraded zu werden. https://bytes.usc.edu/cs104/wiki/gcc
-Example command:
-g&#43;&#43; -fsanitize=undefined,null -D_GLIBCXX_DEBUG -O1 -g -Wextra --std=c&#43;&#43;17 your_program.cpp -o your_program Wall -Wextra show all warnings. It turns on all standard C&#43;&#43; warnings about code that might cause unexpected or undefined behavior. -02 Checks your program during the optimisations
-Version --std=c&#43;&#43;17 Allows you to use the c&#43;&#43; 17th edition features(build in binary search)"/>
-<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/normalize.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.css" />
+Version --std=c&#43;&#43;17 Allows you to use the c&#43;&#43; 17th edition features(build in binary search)">
+  <meta property="og:locale" content="de_de">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="tutorial">
+    <meta property="article:published_time" content="2024-07-11T08:28:12+02:00">
+    <meta property="article:modified_time" content="2024-07-11T08:28:12+02:00">
 
-        <link id="dark-scheme" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.css" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Upgrade your compiler">
+  <meta name="twitter:description" content="Commandline g&#43;&#43; hat die Moeglichkeit mit ein par command line Flags ein wenig geupgraded zu werden. https://bytes.usc.edu/cs104/wiki/gcc
+Example command:
+g&#43;&#43; -fsanitize=undefined,null -D_GLIBCXX_DEBUG -O1 -g -Wextra --std=c&#43;&#43;17 your_program.cpp -o your_program Wall -Wextra show all warnings. It turns on all standard C&#43;&#43; warnings about code that might cause unexpected or undefined behavior. -02 Checks your program during the optimisations
+Version --std=c&#43;&#43;17 Allows you to use the c&#43;&#43; 17th edition features(build in binary search)">
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="https://integratedturtle.github.io/BRG4-IO/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://integratedturtle.github.io/BRG4-IO/css/main.css" />
+
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://integratedturtle.github.io/BRG4-IO/css/dark.css" />
 
 	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-		<script src="http://localhost:1313/js/main.js"></script>
+		<script src="https://integratedturtle.github.io/BRG4-IO/js/main.js"></script>
 </head>
 
 <body>
 	<div class="container wrapper">
 		<div class="header">
 	
-	<h1 class="site-title"><a href="http://localhost:1313/">BG und BRG4-IOI</a></h1>
+	<h1 class="site-title"><a href="https://integratedturtle.github.io/BRG4-IO/">BG und BRG4-IOI</a></h1>
 	<div class="site-description"><p>Alle infos zum Informatik-Olympiade Club des BG und BRG4</p><nav class="nav social">
 			<ul class="flat"><li><a href="https://github.com/IntegratedTurtle/BRG4-IO/" title="Github"><i data-feather="github"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li><li><a href="#" class="scheme-toggle" id="scheme-toggle"></a></li></ul>
 		</nav>
@@ -49,19 +54,19 @@ Version --std=c&#43;&#43;17 Allows you to use the c&#43;&#43; 17th edition featu
 		<ul class="flat">
 			
 			<li>
-				<a href="/">Home</a>
+				<a href="/BRG4-IO/">Home</a>
 			</li>
 			
 			<li>
-				<a href="/updates">Updates</a>
+				<a href="/BRG4-IO/updates">Updates</a>
 			</li>
 			
 			<li>
-				<a href="/tutorial">Tutorial</a>
+				<a href="/BRG4-IO/tutorial">Tutorial</a>
 			</li>
 			
 			<li>
-				<a href="/aufgaben">Aufgaben</a>
+				<a href="/BRG4-IO/aufgaben">Aufgaben</a>
 			</li>
 			
 		</ul>
@@ -110,8 +115,6 @@ Version --std=c&#43;&#43;17 Allows you to use the c&#43;&#43; 17th edition featu
 	<nav class="nav">
 		<div>2024  Sir Karl Popper Schule |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
-</div>
-
-<script>feather.replace()</script>
+</div><script>feather.replace()</script>
 </body>
 </html>

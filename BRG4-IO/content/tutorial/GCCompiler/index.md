@@ -1,7 +1,7 @@
 +++
 title = 'Upgrade your compiler'
 date = 2024-07-11T08:28:12+02:00
-draft = true
+draft = false
 +++
 
 # Commandline

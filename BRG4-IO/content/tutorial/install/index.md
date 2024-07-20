@@ -5,6 +5,7 @@ draft = true
 +++
 
 # Windows
+Um uns und euch das Leben einfacher zu machen, werden wir gcc, also den compiler mit WSL auf Windows installieren. Das bedeutet das ihr eine kleine Linux instanc auf eurem Windows drauf laufen kann wenn ihr es startet. Mitlerweile sind es nur noch wenige clicks, es aendert sich aber immer wieder, deswegen Googelt auf Youtube, how to install WSL2 und installiert es.
 # MacOS
 # Linux
 C++ hat zwei Ebenen, auf der einen Seite der Compiler welcher Textdatein interpretiert und zu Executables umschreibt und auf der anderen Seite der Texteditor, welcher dir als Mensch hilft C++ text/Code zu schreiben.\

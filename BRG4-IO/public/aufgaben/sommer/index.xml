@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aufaben die man schon im Sommer machen koennte on BG und BRG4-IOI</title>
+    <link>https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/</link>
+    <description>Recent content in Aufaben die man schon im Sommer machen koennte on BG und BRG4-IOI</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <copyright>Sir Karl Popper Schule</copyright>
+    <lastBuildDate>Thu, 18 Jul 2024 19:53:07 +0200</lastBuildDate>
+    <atom:link href="https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Missing Number</title>
+      <link>https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/missingnumber/</link>
+      <pubDate>Thu, 18 Jul 2024 19:53:07 +0200</pubDate>
+      <guid>https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/missingnumber/</guid>
+      <description>website&#xA;Missing Number Fehlende Zahl finden Du hast die Aufgabe, eine fehlende Zahl in einer Liste von Zahlen zu finden. Die Liste enthält alle Zahlen von 1 bis n, außer einer. Deine Aufgabe ist es, die fehlende Zahl zu finden.&#xA;Eingabe Die erste Eingabezeile enthält eine ganze Zahl n. Die zweite Zeile enthält n-1 Zahlen. Jede Zahl ist eindeutig und liegt zwischen 1 und n (einschließlich).&#xA;Ausgabe Gib die fehlende Zahl aus.</description>
+    </item>
+    <item>
+      <title>Weird Algorithm</title>
+      <link>https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/weirdalgorithm/</link>
+      <pubDate>Thu, 11 Jul 2024 22:55:44 +0200</pubDate>
+      <guid>https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/weirdalgorithm/</guid>
+      <description>Website&#xA;Hilfe Vor allem am Anfang kann man wirklich gut ChatGPT oder ähnliche Tools nach Hilfe fragen. Sprachmodelle sind gut darin, gelöste Probleme zu erklären.&#xA;Lösung Man startet einmal mit einem Boilerplate. Das bedeutet, es gibt einige Dinge, die wir schreiben müssen und die für &amp;ldquo;jedes&amp;rdquo; Programm gleich sind.&#xA;#include &amp;lt;iostream&amp;gt; int main() { } #include &amp;lt;iostream&amp;gt;: Damit unterstützen wir, dass wir mit der Kommandozeile interagieren können, weil wir eine Zahl einlesen und dann auch Zahlen ausgeben möchten.</description>
+    </item>
+  </channel>
+</rss>

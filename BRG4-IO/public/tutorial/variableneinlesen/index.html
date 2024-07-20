@@ -9,7 +9,7 @@
 Allgemeines std::cin ist eine Möglichkeit, Zeichen von der Kommandozeile einzulesen. Es mag im Vergleich zu vielen anderen Befehlen in C&#43;&#43; anders aussehen, unter anderem, weil es das einzige ist, das &gt;&gt; benutzt.">
   <meta itemprop="datePublished" content="2024-07-13T14:30:28+02:00">
   <meta itemprop="dateModified" content="2024-07-13T14:30:28+02:00">
-  <meta itemprop="wordCount" content="622"><meta property="og:url" content="https://integratedturtle.github.io/BRG4-IO/tutorial/variableneinlesen/">
+  <meta itemprop="wordCount" content="676"><meta property="og:url" content="https://integratedturtle.github.io/BRG4-IO/tutorial/variableneinlesen/">
   <meta property="og:site_name" content="BG und BRG4-IOI">
   <meta property="og:title" content="Variablen einlesen">
   <meta property="og:description" content="In den Aufgaben, die wir machen, müssen wir meist die Variablen selber einlesen. Das ist in C&#43;&#43; eigentlich nur auswendig lernen, deswegen kann es am Anfang noch etwas schwieriger sein zu wissen, was zu tun ist. Deshalb dieser Post.
@@ -140,7 +140,8 @@ Allgemeines std::cin ist eine Möglichkeit, Zeichen von der Kommandozeile einzul
 <p>Manchmal muss man wirklich schnell werden, und da reichen die Standard-IO-Tools nicht mehr aus. Dann muss man diese Zeilen an den Anfang seines Programmes schreiben:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>std::ios_base::sync_with_stdio(false); 
 </span></span><span style="display:flex;"><span>std::cin.tie(NULL);
-</span></span></code></pre></div>
+</span></span></code></pre></div><p>Eine weitere Möglichkeit den Output signifikant zu beschleunigen ist das Vermeiden von <code>std::endl</code>. Wenn man stattdessen <code>&quot;\n&quot;</code> schreibt, erhält man das selbe Ergebniss, nur bedeutend schneller. WICHTIG! Am Ende des Programmes muss einmal <code>std::endl</code> ausgeführt werden, damit der Output auch wirklich geschrieben wird. Die meisten Aufgaben lassen sich allerdings auch ohne diese Tricks lösen.</p>
+
 			</div>
 
 			<div class="tags">

@@ -8,7 +8,7 @@
   <meta itemprop="description" content="Aufgaben um mit dem syntax vertraut zu werden">
   <meta itemprop="datePublished" content="2024-07-11T22:55:44+02:00">
   <meta itemprop="dateModified" content="2024-07-11T22:55:44+02:00">
-  <meta itemprop="wordCount" content="984"><meta property="og:url" content="https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/weirdalgorithm/">
+  <meta itemprop="wordCount" content="1097"><meta property="og:url" content="https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/weirdalgorithm/">
   <meta property="og:site_name" content="BG und BRG4-IOI">
   <meta property="og:title" content="Weird Algorithm">
   <meta property="og:description" content="Aufgaben um mit dem syntax vertraut zu werden">
@@ -200,11 +200,11 @@
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p>Ich habe mich hier für die Zeile unter dem while-Loop entschieden. Jedes Mal, solange der Wert nicht 1 ist, schreibt <code>std::cout &lt;&lt;</code> die Variable in die Kommandozeile und hängt einen Abstand dazu. Es gibt nur noch ein Problem: Wir sollten auch den letzten Zustand schreiben, aber wenn <code>n == 1</code> ist, dann bricht die Schleife ab und <code>std::cout</code> wird nicht mehr ausgeführt. Deshalb muss ganz am Ende nochmal <code>n</code> ausgegeben werden und auch die Zeile beendet werden. Das macht man mit <code>std::endl</code>.</p>
+</span></span></code></pre></div><p>Ich habe mich hier für die Zeile unter dem while-Loop entschieden. Jedes Mal, solange der Wert nicht 1 ist, schreibt <code>std::cout &lt;&lt;</code> die Variable in die Kommandozeile und hängt einen Abstand dazu. Es gibt nur noch ein Problem: Wir sollten auch den letzten Zustand schreiben, aber wenn <code>n == 1</code> ist, dann bricht die Schleife ab und <code>std::cout</code> wird nicht mehr ausgeführt. Deshalb muss ganz am Ende nochmal <code>n</code> ausgegeben werden und auch die Zeile beendet werden. Das macht man mit <code>std::endl</code>. Außerdem gibt es bei der Aufgabe einen kleinen Hacken. Denn während n auf eine Zahl zwischen 1 und 100 000 limitiert ist, kann es gut sein (und Spoiler: passiert auch), dass n noch um einiges größer wird, bevor es zu Eins wird. Eine Variable des Typen <code>int</code> kann jede ganze Zahle zwischen <code>-2³¹</code> und <code>2³¹</code> annehmen. Für manche Startwerte von n wird n allerdings größer als besagtes Limit. Daher muss man auf einen anderen Datentyp zurückgreifen: <code>long long</code>. Dieser kann jede beliebige ganze Zahl zwischen <code>-2⁶³</code> und <code>2⁶³</code> annehmen und ist ausreichend groß. Um diese Änderung vorzunehmen, muss man nur bei der Initialisierung der Variable <code>n</code> <code>int</code> zu einem <code>long long</code> austauchen.</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#00f">#include</span> <span style="color:#00f">&lt;iostream&gt;</span><span style="color:#00f">
 </span></span></span><span style="display:flex;"><span><span style="color:#00f"></span>
 </span></span><span style="display:flex;"><span><span style="color:#2b91af">int</span> main() {
-</span></span><span style="display:flex;"><span>    <span style="color:#2b91af">int</span> n;
+</span></span><span style="display:flex;"><span>    <span style="color:#2b91af">long</span> <span style="color:#2b91af">long</span> n;
 </span></span><span style="display:flex;"><span>    std::cin &gt;&gt; n;
 </span></span><span style="display:flex;"><span>    <span style="color:#00f">while</span> (n != 1) {
 </span></span><span style="display:flex;"><span>        std::cout &lt;&lt; n &lt;&lt; <span style="color:#a31515">&#34; &#34;</span>;
