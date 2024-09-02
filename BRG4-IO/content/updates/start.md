@@ -5,12 +5,12 @@ draft = false
 +++
 
 # 2023
-- Die IOI und deren Qualification in Wien entdeckt und teilgenommen
+- Die IOI und deren Qualifikation in Wien entdeckt und teilgenommen
 # 2024
 ## Wien Camp
-- 5 Schueler im Wien Camp
-## Woergel
-- 3 Schueler in Woergel
+- 5 Schüler beim Wien Camp
+## Bundesfinale
+- 3 Schüler in Wörgel
 ## Mitteleuropaeische Informatik Olympiade
-- 1 Schueler
+- 1 Schüler
 
