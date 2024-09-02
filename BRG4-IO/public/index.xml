@@ -2,74 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BG und BRG4-IOI</title>
-    <link>https://integratedturtle.github.io/BRG4-IO/</link>
+    <link>http://localhost:1313/BRG4-IO/</link>
     <description>Recent content on BG und BRG4-IOI</description>
     <generator>Hugo</generator>
     <language>de-de</language>
     <copyright>Sir Karl Popper Schule</copyright>
-    <lastBuildDate>Thu, 18 Jul 2024 19:53:07 +0200</lastBuildDate>
-    <atom:link href="https://integratedturtle.github.io/BRG4-IO/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jul 2024 13:15:16 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/BRG4-IO/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Variablen Ausgeben</title>
+      <link>http://localhost:1313/BRG4-IO/tutorial/variablenausgeben/</link>
+      <pubDate>Tue, 23 Jul 2024 13:15:16 +0200</pubDate>
+      <guid>http://localhost:1313/BRG4-IO/tutorial/variablenausgeben/</guid>
+      <description>So wie man zu beginn eines Programmes fast immer die Variablen einlesen muss, muss man sei output ausgeben. Das ist oft einfacher, wenn man nur einzelne Zahlen ausgieb, da man sich nicht um das speichern kuemmern muss, es gibt aber doch hier auch patterns die sich immer wieder wiederhollen.&#xA;Wie funktioniert ausgeben Dein Program startet mit einer neune Zeile, an welche du mit std::cout einfach etwas dranhaengen kannst. Stelle es dir vor wie ein Fluss welcher vor deiner Austuer fliest, den vorteil den du hast, ist, dass der fluss, bis du etwas reinschreibst auf dich Wartet.</description>
+    </item>
     <item>
       <title>Missing Number</title>
-      <link>https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/missingnumber/</link>
+      <link>http://localhost:1313/BRG4-IO/aufgaben/sommer/missingnumber/</link>
       <pubDate>Thu, 18 Jul 2024 19:53:07 +0200</pubDate>
-      <guid>https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/missingnumber/</guid>
+      <guid>http://localhost:1313/BRG4-IO/aufgaben/sommer/missingnumber/</guid>
       <description>website&#xA;Missing Number Fehlende Zahl finden Du hast die Aufgabe, eine fehlende Zahl in einer Liste von Zahlen zu finden. Die Liste enthält alle Zahlen von 1 bis n, außer einer. Deine Aufgabe ist es, die fehlende Zahl zu finden.&#xA;Eingabe Die erste Eingabezeile enthält eine ganze Zahl n. Die zweite Zeile enthält n-1 Zahlen. Jede Zahl ist eindeutig und liegt zwischen 1 und n (einschließlich).&#xA;Ausgabe Gib die fehlende Zahl aus.</description>
     </item>
     <item>
       <title>Variablen einlesen</title>
-      <link>https://integratedturtle.github.io/BRG4-IO/tutorial/variableneinlesen/</link>
+      <link>http://localhost:1313/BRG4-IO/tutorial/variableneinlesen/</link>
       <pubDate>Sat, 13 Jul 2024 14:30:28 +0200</pubDate>
-      <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/variableneinlesen/</guid>
+      <guid>http://localhost:1313/BRG4-IO/tutorial/variableneinlesen/</guid>
       <description>In den Aufgaben, die wir machen, müssen wir meist die Variablen selber einlesen. Das ist in C++ eigentlich nur auswendig lernen, deswegen kann es am Anfang noch etwas schwieriger sein zu wissen, was zu tun ist. Deshalb dieser Post.&#xA;Allgemeines std::cin ist eine Möglichkeit, Zeichen von der Kommandozeile einzulesen. Es mag im Vergleich zu vielen anderen Befehlen in C++ anders aussehen, unter anderem, weil es das einzige ist, das &amp;gt;&amp;gt; benutzt.</description>
     </item>
     <item>
       <title>Weird Algorithm</title>
-      <link>https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/weirdalgorithm/</link>
+      <link>http://localhost:1313/BRG4-IO/aufgaben/sommer/weirdalgorithm/</link>
       <pubDate>Thu, 11 Jul 2024 22:55:44 +0200</pubDate>
-      <guid>https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/weirdalgorithm/</guid>
+      <guid>http://localhost:1313/BRG4-IO/aufgaben/sommer/weirdalgorithm/</guid>
       <description>Website&#xA;Hilfe Vor allem am Anfang kann man wirklich gut ChatGPT oder ähnliche Tools nach Hilfe fragen. Sprachmodelle sind gut darin, gelöste Probleme zu erklären.&#xA;Lösung Man startet einmal mit einem Boilerplate. Das bedeutet, es gibt einige Dinge, die wir schreiben müssen und die für &amp;ldquo;jedes&amp;rdquo; Programm gleich sind.&#xA;#include &amp;lt;iostream&amp;gt; int main() { } #include &amp;lt;iostream&amp;gt;: Damit unterstützen wir, dass wir mit der Kommandozeile interagieren können, weil wir eine Zahl einlesen und dann auch Zahlen ausgeben möchten.</description>
     </item>
     <item>
       <title>Gcov</title>
-      <link>https://integratedturtle.github.io/BRG4-IO/tutorial/gcov/</link>
+      <link>http://localhost:1313/BRG4-IO/tutorial/gcov/</link>
       <pubDate>Thu, 11 Jul 2024 10:35:02 +0200</pubDate>
-      <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/gcov/</guid>
+      <guid>http://localhost:1313/BRG4-IO/tutorial/gcov/</guid>
       <description>Gcov Wenn man Code geschrieben hat, un man sich nicht ganz sicher ist was jetzt genau passiert, oder der Code zu langsam ist, kann es nuetzlich sein sich anzusehen, wie oft welche Zeile laeuft.&#xA;Vorbereitung Compiliere deine .cpp Datei mit&#xA;--coverage Dann fuehr dein Program mit einem Testcase aus&#xA;Commands gcov test.cpp -m -k -t | less -R gcov: ruft das program auf m: Schreibt ganze funktionnamen k: Farben :-&amp;gt; t: terminal output, wenn du das Ergebniss in einen File speichern willst lass das weg, wenn du gcov aber mit less benutzen willst ist das wichtig | : Pipe: schickt output zum naechstem Command, da t aktiv ist schickt es den Text zu less R: Farben :-&amp;gt; Analyse !</description>
     </item>
     <item>
       <title>Upgrade your compiler</title>
-      <link>https://integratedturtle.github.io/BRG4-IO/tutorial/gccompiler/</link>
+      <link>http://localhost:1313/BRG4-IO/tutorial/gccompiler/</link>
       <pubDate>Thu, 11 Jul 2024 08:28:12 +0200</pubDate>
-      <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/gccompiler/</guid>
+      <guid>http://localhost:1313/BRG4-IO/tutorial/gccompiler/</guid>
       <description>Commandline g++ hat die Moeglichkeit mit ein par command line Flags ein wenig geupgraded zu werden. https://bytes.usc.edu/cs104/wiki/gcc&#xA;Example command:&#xA;g++ -fsanitize=undefined,null -D_GLIBCXX_DEBUG -O1 -g -Wextra --std=c++17 your_program.cpp -o your_program Wall -Wextra show all warnings. It turns on all standard C++ warnings about code that might cause unexpected or undefined behavior. -02 Checks your program during the optimisations&#xA;Version --std=c++17 Allows you to use the c++ 17th edition features(build in binary search)</description>
     </item>
     <item>
       <title>Segtree Ressources</title>
-      <link>https://integratedturtle.github.io/BRG4-IO/tutorial/topics/segtrees/other_ressources/</link>
+      <link>http://localhost:1313/BRG4-IO/tutorial/topics/segtrees/other_ressources/</link>
       <pubDate>Mon, 10 Jun 2024 11:30:50 +0200</pubDate>
-      <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/topics/segtrees/other_ressources/</guid>
+      <guid>http://localhost:1313/BRG4-IO/tutorial/topics/segtrees/other_ressources/</guid>
       <description>More advanced segtree subjects cp-algorithms for lazy, spare, preserving history, 2D segtrees&#xA;USACO on advanced segtree-topics</description>
     </item>
     <item>
       <title>Anmeldung</title>
-      <link>https://integratedturtle.github.io/BRG4-IO/updates/anmeldung/</link>
+      <link>http://localhost:1313/BRG4-IO/updates/anmeldung/</link>
       <pubDate>Thu, 06 Jun 2024 15:19:50 +0200</pubDate>
-      <guid>https://integratedturtle.github.io/BRG4-IO/updates/anmeldung/</guid>
+      <guid>http://localhost:1313/BRG4-IO/updates/anmeldung/</guid>
       <description>Was ist ein Club? Ein Club ist eine Versammlung von SchülerInnen der Oberstufe, die sich regelmäßig treffen und dabei einem gemeinsamen Hobby oder einem Interesse nachgehen. (z.B. Schach-, Debattier-Club, Musik-Trio, …)&#xA;Wie Meldet man sich an Das unten Angeheftete pdf ausfüllen und einem von uns beim nächsten Treffen in die Hand drücken&#xA;Wer ist Clubleiter Ben Kinigadner&#xA;Anmeldungs pdf</description>
     </item>
     <item>
+      <title>Installation</title>
+      <link>http://localhost:1313/BRG4-IO/tutorial/install/</link>
+      <pubDate>Thu, 06 Jun 2024 14:54:41 +0200</pubDate>
+      <guid>http://localhost:1313/BRG4-IO/tutorial/install/</guid>
+      <description>Windows Um uns und euch das Leben einfacher zu machen, werden wir gcc, also den compiler mit WSL auf Windows installieren. Das bedeutet das ihr eine kleine Linux instanc auf eurem Windows drauf laufen kann wenn ihr es startet. Mitlerweile sind es nur noch wenige clicks, es aendert sich aber immer wieder, deswegen Googelt auf Youtube, how to install WSL2 und installiert es.&#xA;MacOS Linux C++ hat zwei Ebenen, auf der einen Seite der Compiler welcher Textdatein interpretiert und zu Executables umschreibt und auf der anderen Seite der Texteditor, welcher dir als Mensch hilft C++ text/Code zu schreiben.</description>
+    </item>
+    <item>
       <title>Unser Log</title>
-      <link>https://integratedturtle.github.io/BRG4-IO/updates/start/</link>
+      <link>http://localhost:1313/BRG4-IO/updates/start/</link>
       <pubDate>Thu, 06 Jun 2024 00:28:59 +0200</pubDate>
-      <guid>https://integratedturtle.github.io/BRG4-IO/updates/start/</guid>
+      <guid>http://localhost:1313/BRG4-IO/updates/start/</guid>
       <description>2023 Die IOI und deren Qualification in Wien entdeckt und teilgenommen 2024 Wien Camp 5 Schueler im Wien Camp Woergel 3 Schueler in Woergel Mitteleuropaeische Informatik Olympiade 1 Schueler </description>
     </item>
     <item>
       <title>Learn C&#43;&#43;</title>
-      <link>https://integratedturtle.github.io/BRG4-IO/tutorial/learncpp/</link>
+      <link>http://localhost:1313/BRG4-IO/tutorial/learncpp/</link>
       <pubDate>Wed, 29 May 2024 13:25:57 +0200</pubDate>
-      <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/learncpp/</guid>
+      <guid>http://localhost:1313/BRG4-IO/tutorial/learncpp/</guid>
       <description>Video Playlist for learning C++ for beginners&#xA;Interactive websites If you&amp;rsquo;re starting from scratch Bit more advanced learning website&#xA;USA IOI Training Website&#xA;More in depth and advanced Topics\</description>
     </item>
   </channel>
