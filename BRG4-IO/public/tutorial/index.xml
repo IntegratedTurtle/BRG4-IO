@@ -2,53 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorials on BG und BRG4-IOI</title>
-    <link>http://localhost:1313/BRG4-IO/tutorial/</link>
+    <link>https://integratedturtle.github.io/BRG4-IO/tutorial/</link>
     <description>Recent content in Tutorials on BG und BRG4-IOI</description>
     <generator>Hugo</generator>
     <language>de-de</language>
     <copyright>Sir Karl Popper Schule</copyright>
-    <lastBuildDate>Tue, 23 Jul 2024 13:15:16 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/BRG4-IO/tutorial/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Variablen Ausgeben</title>
-      <link>http://localhost:1313/BRG4-IO/tutorial/variablenausgeben/</link>
-      <pubDate>Tue, 23 Jul 2024 13:15:16 +0200</pubDate>
-      <guid>http://localhost:1313/BRG4-IO/tutorial/variablenausgeben/</guid>
-      <description>So wie man zu beginn eines Programmes fast immer die Variablen einlesen muss, muss man sei output ausgeben. Das ist oft einfacher, wenn man nur einzelne Zahlen ausgieb, da man sich nicht um das speichern kuemmern muss, es gibt aber doch hier auch patterns die sich immer wieder wiederhollen.&#xA;Wie funktioniert ausgeben Dein Program startet mit einer neune Zeile, an welche du mit std::cout einfach etwas dranhaengen kannst. Stelle es dir vor wie ein Fluss welcher vor deiner Austuer fliest, den vorteil den du hast, ist, dass der fluss, bis du etwas reinschreibst auf dich Wartet.</description>
-    </item>
+    <lastBuildDate>Sat, 13 Jul 2024 14:30:28 +0200</lastBuildDate>
+    <atom:link href="https://integratedturtle.github.io/BRG4-IO/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Variablen einlesen</title>
-      <link>http://localhost:1313/BRG4-IO/tutorial/variableneinlesen/</link>
+      <link>https://integratedturtle.github.io/BRG4-IO/tutorial/variableneinlesen/</link>
       <pubDate>Sat, 13 Jul 2024 14:30:28 +0200</pubDate>
-      <guid>http://localhost:1313/BRG4-IO/tutorial/variableneinlesen/</guid>
+      <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/variableneinlesen/</guid>
       <description>In den Aufgaben, die wir machen, müssen wir meist die Variablen selber einlesen. Das ist in C++ eigentlich nur auswendig lernen, deswegen kann es am Anfang noch etwas schwieriger sein zu wissen, was zu tun ist. Deshalb dieser Post.&#xA;Allgemeines std::cin ist eine Möglichkeit, Zeichen von der Kommandozeile einzulesen. Es mag im Vergleich zu vielen anderen Befehlen in C++ anders aussehen, unter anderem, weil es das einzige ist, das &amp;gt;&amp;gt; benutzt.</description>
     </item>
     <item>
       <title>Gcov</title>
-      <link>http://localhost:1313/BRG4-IO/tutorial/gcov/</link>
+      <link>https://integratedturtle.github.io/BRG4-IO/tutorial/gcov/</link>
       <pubDate>Thu, 11 Jul 2024 10:35:02 +0200</pubDate>
-      <guid>http://localhost:1313/BRG4-IO/tutorial/gcov/</guid>
+      <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/gcov/</guid>
       <description>Gcov Wenn man Code geschrieben hat, un man sich nicht ganz sicher ist was jetzt genau passiert, oder der Code zu langsam ist, kann es nuetzlich sein sich anzusehen, wie oft welche Zeile laeuft.&#xA;Vorbereitung Compiliere deine .cpp Datei mit&#xA;--coverage Dann fuehr dein Program mit einem Testcase aus&#xA;Commands gcov test.cpp -m -k -t | less -R gcov: ruft das program auf m: Schreibt ganze funktionnamen k: Farben :-&amp;gt; t: terminal output, wenn du das Ergebniss in einen File speichern willst lass das weg, wenn du gcov aber mit less benutzen willst ist das wichtig | : Pipe: schickt output zum naechstem Command, da t aktiv ist schickt es den Text zu less R: Farben :-&amp;gt; Analyse !</description>
     </item>
     <item>
       <title>Upgrade your compiler</title>
-      <link>http://localhost:1313/BRG4-IO/tutorial/gccompiler/</link>
+      <link>https://integratedturtle.github.io/BRG4-IO/tutorial/gccompiler/</link>
       <pubDate>Thu, 11 Jul 2024 08:28:12 +0200</pubDate>
-      <guid>http://localhost:1313/BRG4-IO/tutorial/gccompiler/</guid>
+      <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/gccompiler/</guid>
       <description>Commandline g++ hat die Moeglichkeit mit ein par command line Flags ein wenig geupgraded zu werden. https://bytes.usc.edu/cs104/wiki/gcc&#xA;Example command:&#xA;g++ -fsanitize=undefined,null -D_GLIBCXX_DEBUG -O1 -g -Wextra --std=c++17 your_program.cpp -o your_program Wall -Wextra show all warnings. It turns on all standard C++ warnings about code that might cause unexpected or undefined behavior. -02 Checks your program during the optimisations&#xA;Version --std=c++17 Allows you to use the c++ 17th edition features(build in binary search)</description>
     </item>
     <item>
-      <title>Installation</title>
-      <link>http://localhost:1313/BRG4-IO/tutorial/install/</link>
-      <pubDate>Thu, 06 Jun 2024 14:54:41 +0200</pubDate>
-      <guid>http://localhost:1313/BRG4-IO/tutorial/install/</guid>
-      <description>Windows Um uns und euch das Leben einfacher zu machen, werden wir gcc, also den compiler mit WSL auf Windows installieren. Das bedeutet das ihr eine kleine Linux instanc auf eurem Windows drauf laufen kann wenn ihr es startet. Mitlerweile sind es nur noch wenige clicks, es aendert sich aber immer wieder, deswegen Googelt auf Youtube, how to install WSL2 und installiert es.&#xA;MacOS Linux C++ hat zwei Ebenen, auf der einen Seite der Compiler welcher Textdatein interpretiert und zu Executables umschreibt und auf der anderen Seite der Texteditor, welcher dir als Mensch hilft C++ text/Code zu schreiben.</description>
-    </item>
-    <item>
       <title>Learn C&#43;&#43;</title>
-      <link>http://localhost:1313/BRG4-IO/tutorial/learncpp/</link>
+      <link>https://integratedturtle.github.io/BRG4-IO/tutorial/learncpp/</link>
       <pubDate>Wed, 29 May 2024 13:25:57 +0200</pubDate>
-      <guid>http://localhost:1313/BRG4-IO/tutorial/learncpp/</guid>
+      <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/learncpp/</guid>
       <description>Video Playlist for learning C++ for beginners&#xA;Interactive websites If you&amp;rsquo;re starting from scratch Bit more advanced learning website&#xA;USA IOI Training Website&#xA;More in depth and advanced Topics\</description>
     </item>
   </channel>
