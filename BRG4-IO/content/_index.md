@@ -6,7 +6,7 @@ draft = false
 
 # Nächstes Treffen
 ## Datum und Ort
-TBA
+Freitag 7-8 Stunde 19.09.2024
 ## Wer
 Alle die sich grundsätzlich für die IO interessieren sind herzlich willkommen.
 ## Mitbringen
