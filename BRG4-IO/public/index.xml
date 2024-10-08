@@ -4,11 +4,18 @@
     <title>BG und BRG4-IOI</title>
     <link>https://integratedturtle.github.io/BRG4-IO/</link>
     <description>Recent content on BG und BRG4-IOI</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>de-de</language>
     <copyright>Sir Karl Popper Schule</copyright>
-    <lastBuildDate>Thu, 06 Jun 2024 00:08:32 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 07 Oct 2024 13:30:21 +0200</lastBuildDate>
     <atom:link href="https://integratedturtle.github.io/BRG4-IO/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Einrichtung und Rekursion</title>
+      <link>https://integratedturtle.github.io/BRG4-IO/aufgaben/07_10_24/</link>
+      <pubDate>Mon, 07 Oct 2024 13:30:21 +0200</pubDate>
+      <guid>https://integratedturtle.github.io/BRG4-IO/aufgaben/07_10_24/</guid>
+      <description>Funktion Um zu verstehen, was die Rekursion ist und wie man sich richtig verwenden kann, muss man sich erst einmal mit dem Baustein der Rekursion beschäftigen. Der Funktion. Hierbei kann man sich vorstellen, dass sich das ganze Programm in einem Raum abspielt, den wir MAIN nennen. Alle Variablen, welche sich in diesem Raum befinden, sind für uns zugänglich und wir koennen mit ihnen machen was wir wollen. Rufen wir allerdings eine Funktion auf, wirkt das, als wuerde wir eine weitere Türe eröffnen und nur bestimmte Variablen in diesen Raum einladen.</description>
+    </item>
     <item>
       <title>Missing Number</title>
       <link>https://integratedturtle.github.io/BRG4-IO/aufgaben/sommer/missingnumber/</link>
