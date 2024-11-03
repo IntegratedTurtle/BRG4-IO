@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>de-de</language>
     <copyright>Sir Karl Popper Schule</copyright>
-    <lastBuildDate>Mon, 07 Oct 2024 13:30:21 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 02 Nov 2024 20:56:50 +0100</lastBuildDate>
     <atom:link href="https://integratedturtle.github.io/BRG4-IO/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Graphics</title>
+      <link>https://integratedturtle.github.io/BRG4-IO/tutorial/graphics/</link>
+      <pubDate>Sat, 02 Nov 2024 20:56:50 +0100</pubDate>
+      <guid>https://integratedturtle.github.io/BRG4-IO/tutorial/graphics/</guid>
+      <description>Hier geht es einfach mal darum wie man simpel in c++ ein program compilieren can, welches einem Bilder rendert&#xA;Ich werde hier bei sfml benutzen, da es sehr wenig braucht, man allerdings schon ein wenig damit machen kann.&#xA;Install the library Ich werde hier nur die detail dazu angeben wie man dies auf Linux macht, da ich hoffe, dass alle auf Windows, WSL2 laufen&#xA;Ubuntu sudo apt install libsfml-dev Fedora sudo dnf install SFML-devel OpenSuse sudo zypper in sfml2-devel Code #include &amp;lt;SFML/Graphics.</description>
+    </item>
     <item>
       <title>Einrichtung und Rekursion</title>
       <link>https://integratedturtle.github.io/BRG4-IO/aufgaben/07_10_24/</link>
